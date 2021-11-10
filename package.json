@@ -1,0 +1,50 @@
+{
+  "author": "Dave Henson",
+  "description": "FEM Challenge - Space Tourism",
+  "version": "1.0.0",
+  "keywords": [],
+  "name": "space-tourism",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
+    "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
+  },
+  "license": "ISC",
+  "optionalDependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "browserslist": "^4.17.6",
+    "concurrently": "^6.3.0",
+    "eslint": "^8.2.0",
+    "eslint-config-healthier": "3.2.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-compat": "^3.13.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-unicorn": "^38.0.1",
+    "get-google-fonts": "1.2.2",
+    "gulp": "4.0.2",
+    "gulp-clean": "0.4.0",
+    "gulp-clean-css": "4.3.0",
+    "gulp-esbuild": "^0.9.1",
+    "gulp-htmlmin": "5.0.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-notify": "4.0.0",
+    "gulp-sass": "5.0.0",
+    "gulp-sourcemaps": "3.0.0",
+    "healthier": "4.0.0",
+    "html-minifier": "4.0.0",
+    "prettier": "2.4",
+    "sass": "^1.43.4",
+    "stylelint": "^14.0.1",
+    "stylelint-high-performance-animation": "1.5.2",
+    "stylelint-no-unsupported-browser-features": "^5.0.2",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.0.0",
+    "stylelint-use-logical-spec": "^3.2.2"
+  },
+  "browserslist": [
+    "safari 15",
+    "chrome 95",
+    "firefox 92"
+  ]
+}
